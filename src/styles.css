@@ -1,0 +1,30 @@
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.modified-mc-content {
+  height: 48px
+}
+
+.modified-mc-content > mat-expansion-panel {
+    z-index: 1;
+}
+
+.modified-mc-content > mat-expansion-panel > .mat-expansion-panel-content {
+    max-height: 50vh;
+    overflow: auto;
+}
+
+.modified-mc-content mat-chip {
+  height: auto
+}
